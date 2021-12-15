@@ -51,6 +51,7 @@ now, you need to provide a refrence to the element you want service to work on. 
 now, as the final step, simply call the **start()** method in side of **ngAfterViewInit()** , where the view has been initialized successfully , therefore **this.elementRef** is accessible:
 
 ``
+
 ngAfterViewInit(): void {
     this.webAccessibilityService.start({
     allowedKeysForNavigation: ['ArrowLeft', 'ArrowRight'], // <--- which keys should be listened to?
@@ -61,6 +62,7 @@ ngAfterViewInit(): void {
     // classesToRestrictTo: ['btn'] //<-- restrict iteration to elements which have at least one of these provided className(s)
     });
 }
+
 ``
 
 **please note** that nextKey in above configuration, must be defined in **allowedKeysForNavigation** as well.
