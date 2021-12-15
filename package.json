@@ -1,5 +1,15 @@
 {
   "name": "ng-simple-webaccessibility",
+  "author": {
+    "email": "kavehtahernam@gmail.com",
+    "name": "Kaveh Taher",
+    "url": "https://github.com/thel0ner/"
+  },
+  "description": "Web accessibility toolkit for Angular projects.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thel0ner/ng-simple-webaccessibility"
+  },
   "version": "1.0.0",
   "peerDependencies": {
     "@angular/common": "^11.2.14",
