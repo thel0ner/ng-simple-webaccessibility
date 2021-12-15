@@ -5,12 +5,13 @@
     "name": "Kaveh Taher",
     "url": "https://github.com/thel0ner/"
   },
+  "keywords": ["angular","web accessibility", "keyboard navigation"],
   "description": "Web accessibility toolkit for Angular projects.",
   "repository": {
     "type": "git",
     "url": "https://github.com/thel0ner/ng-simple-webaccessibility"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "peerDependencies": {
     "@angular/common": "^11.2.14",
     "@angular/core": "^11.2.14"
