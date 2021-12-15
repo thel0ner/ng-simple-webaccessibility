@@ -2,7 +2,7 @@
 
 Web accessibility toolkit for Angular projects.
 
-for now, it simply helps you navigate throw elements with different tabindexes throw defines keyCode(s) in configuration, as described below:
+for now, it simply helps you navigate through elements with different tabindexes throw defines keyCode(s) in configuration, as described below:
 
 ## Usage and Configuratiom
 
